@@ -2,7 +2,7 @@
 import argparse
 
 import torch
-import gymnasium as gym
+import gym
 
 
 from env.custom_hopper import *

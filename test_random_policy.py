@@ -14,7 +14,7 @@
 """
 import pdb
 
-import gym
+import gymnasium as gym
 
 from env.custom_hopper import *
 

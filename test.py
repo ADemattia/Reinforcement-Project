@@ -2,7 +2,8 @@
 import argparse
 
 import torch
-import gym
+import gymnasium as gym
+
 
 from env.custom_hopper import *
 from agent import Agent, Policy

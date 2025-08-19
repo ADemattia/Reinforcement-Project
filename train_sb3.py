@@ -4,7 +4,8 @@
     Read the stable-baselines3 documentation and implement a training
     pipeline with an RL algorithm of your choice between PPO and SAC.
 """
-import gym
+import gymnasium as gym
+
 from env.custom_hopper import *
 
 def main():

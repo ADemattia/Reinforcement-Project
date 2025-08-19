@@ -6,7 +6,8 @@ domain randomization optimization.
 from copy import deepcopy
 
 import numpy as np
-import gym
+import gymnasium as gym
+
 from gym import utils
 from .mujoco_env import MujocoEnv
 
